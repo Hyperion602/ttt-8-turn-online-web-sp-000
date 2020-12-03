@@ -24,7 +24,7 @@ end
 
 def move(board, input, value = 'X')
   def update_array_at_with(board, input, value = 'X')
-    board[input] = value
+    board[user_input] = value
   end
   update_array_at_with(board, input, value)
 end
