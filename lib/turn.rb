@@ -28,3 +28,7 @@ def move(board, input, value = 'X')
   end
   update_array_at_with(board, input, value)
 end
+
+def turn(board)
+  puts "Please enter 1-9:"
+end
