@@ -22,9 +22,9 @@ def input_to_index(user_input)
   converted_input = (user_input.to_i) - 1
 end
 
-def move(board, user_input, value = 'X')
-  def update_array_at_with(board, user_input, value = 'X')
-    board[user_input] = value
+def move(board, input, value = 'X')
+  def update_array_at_with(board, input, value = 'X')
+    board[input] = value
   end
   update_array_at_with(board, input, value)
 end
